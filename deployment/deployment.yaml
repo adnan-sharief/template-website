@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: adnansharief/websites:carvilla
+          image: adnansharief/websites:oxer
           ports:
             - containerPort: 80
 
