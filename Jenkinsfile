@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'adnansharief/websites:carvilla'
+        IMAGE_NAME = 'adnansharief/websites:oxer'
         NODE_PORT = '30008' // match this with your service.yaml
         EC2_PUBLIC_IP = '13.61.12.117' // change this below
     }
